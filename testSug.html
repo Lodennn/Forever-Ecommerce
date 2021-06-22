@@ -1,0 +1,229 @@
+{% load static %}
+{% load url_mods %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>فور ايفر - الرئيسيه </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+   <title>  </title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'main/css/font-awesome.min.css' %}" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.min.css' %}" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'main/css/stylesheet.css' %}" />
+    <link rel="shortcut icon" href="{%  static 'main/images/logo.png' %}">
+</head>
+
+
+
+<body>
+
+    <!-- Login Form -->
+    <div id='fixedLogin' class='login'>
+        <div class='container'>
+            <div id='loginWindow' class='window'>
+                <i id='close' class='fa fa-close'></i>
+                <h3>تسجيل الدخول</h3>
+                <hr>
+                <form action="" method="GET">
+                    <div class='form-group'>
+                        <input type="text" name="user" placeholder='أسم المستخدم' class='form-control' />
+                        <i class='fa fa-user'></i>
+                    </div>
+                    <div class='form-group'>
+                        <input type="password" name="pass" placeholder='كلمة المرور' class='form-control' />
+                        <i class='fa fa-lock'></i>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-6'>
+                            <input type='submit' value='دخول' class='form-control' />
+                        </div>
+                        <div class='col-sm-6'>
+                            <a href='registration.html'>إنشاء حساب ؟</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Login Form -->
+
+    <!-- Contact us fixed btn -->
+    <div class='contact-fixed-btn'>
+        <a href='contact.html'>
+            <p><i class='fa fa-phone'></i></p>
+        </a>
+    </div>
+    <!-- Contact us fixed btn -->
+
+    <!-- MOB: Hot & News In Uppernav -->
+    <div class='uppernav'>
+        <div class='container'>
+            <div class='faded-upper-text'>
+                <div class='box active'>
+                    <p>يوجد لدينا منتجات من قسم 1</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 2</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 3</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 4</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOB: Hot & News In Uppernav -->
+
+    <!-- Nav -->
+    <div class='nav'>
+        <div class='container'>
+            <div class='logo'>
+                <a href='index.html'><img src='images/logo.png' class='img-fluid' /></a>
+            </div>
+            <div class='faded-text'>
+                <div class='box active'>
+                    <p>يوجد لدينا منتجات من قسم 1</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 2</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 3</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 4</p>
+                </div>
+                <div class='box hidden'>
+                    <p>يوجد لدينا منتجات من قسم 5</p>
+                </div>
+            </div>
+            <div class='rhs'>
+                <!--<i class='fa fa-user login-form-icon'></i>-->
+                <div class='logged-in'>
+                    <ul class='list-unstyled'>
+                        <li>&nbsp;<i class='fa fa-sort-down'></i>Moa</li>
+                        <li><a href='logout.html'>Logout&nbsp;<i class='fa fa-close'></i></a></li>
+                    </ul>
+                </div>
+                <i class='fa fa-search search-icon'></i>
+                <a href='cart.html' target="_blank">
+                    <p>
+                        <i class='fa fa-shopping-cart cart-icon'></i>
+                        <span class='cart-num'>0</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Nav -->
+    <!-- Search Bar -->
+    <div class='search'>
+        <div class='container'>
+            <form action="" method="">
+                <input type="search" name='searchkey' class='form-control' placeholder='بحث' />
+                <i class='fa fa-close search-close'></i>
+                <input type='submit' value='بحث' class='btn btn-success' />
+            </form>
+        </div>
+    </div>
+    <!-- Search Bar -->
+    <!-- Categories Navigation -->
+    <div class='cats-nav'>
+        <div class='container'>
+            <ul class='cats-navigation list-unstyled'>
+                <li class='active'><a href='index.html'>الرئيسيه</a></li>
+                <li><a href='category.html'>منتجات التخسيس</a></li>
+                <li><a href='category.html'>منتجات العنايه</a></li>
+                <li><a href='category.html'>منتجات المكملات الغذائيه</a></li>
+                <li><a href='category.html'>منتجات الزيوت</a></li>
+                <li><a href='about.html'>من نحن</a></li>
+                <li><a href='business.html'>Business</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Categories Navigation -->
+
+    <!-- Start Mobile Nav -->
+
+    <div class='mobnav'>
+        <div class='container'>
+            <div class='nav-content'>
+                <div class='icon pull-left'>
+                    <div class='hamburger'></div>
+                </div>
+                <ul class='list-unstyled mlinks'>
+                    <li class='active'><a href='index.html'>الرئيسيه</a></li>
+                    <li><a href='category.html'>منتجات التخسيس</a></li>
+                    <li><a href='category.html'>منتجات العنايه</a></li>
+                    <li><a href='category.html'>منتجات المكملات الغذائيه</a></li>
+                    <li><a href='category.html'>منتجات الزيوت</a></li>
+                    <li><a href='about.html'>من نحن</a></li>
+                    <li><a href='business.html'>Business</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Mobile Nav -->
+    
+    
+    
+    
+    <!-- Special Header For Slider -->
+    <div id="sugSlider1" class="carousel slide category" data-ride="carousel">
+        <div class="carousel-inner container">
+            <div class="carousel-item active">
+                <!-- Start Of SugSlider Row -->
+                <div class='row'>
+                    <div class='col'>
+                        <!-- ********** Start Product ********** -->
+                        <div class='product'>
+                            <div class='image'>
+                                <img src='images/G50.png' alt='product1' class='img-fluid' />
+                                <div class='overlay'>
+                                    <div class='icons'>
+                                        <i class='fa fa-eye see'></i>
+                                        <a href='product.html'><i class='fa fa-shopping-cart buy'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class='list-unstyled'>
+                                <li>أسم المنتج <span class='offer-percentage pull-left'>35%</span></li>
+                                <li>
+                                    <p>تأسست شركة فوريفر ليفينج الامريكية عام 1978م وتعتبر الأولى</p>
+                                </li>
+                                <li>
+                                    <strike><p>1200 <span>L.E</span></p></strike>
+                                    <p class='new-price'>560 <span>L.E</span></p>
+                                </li>
+                            </ul>
+                            <span class='offer'>عرض</span>
+                        </div>
+                        <!-- ********** End Product ********** -->
+                    </div>
+                </div>
+                <!-- End Of SugSlider Row -->
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#sugSlider1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">السابق</span>
+        </a>
+        <a class="carousel-control-next" href="#sugSlider1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Suggest Product Slider -->
